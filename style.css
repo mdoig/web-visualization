@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(237,238,237);
+}
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(15,173,166);
+    margin-left: 5%;
+    padding: 10px;
+}
+
+#navbar-brand-color {
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: 72%;
+}
+
+.container-fluid {
+    min-height: 100vh;
+}
+.row {
+    margin: 3%;
+}
+.main, .side {
+    background-color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.main {
+    float: left;
+}
+
+#summary-image {
+    float: left;
+    width: 35%;
+    height: auto;
+}
+
+#plot-image {
+    width: 100%;
+}
+
+.compare-image {
+    width: 100%;
+}
+
+.side {
+    float: right;
+}
+
+h2 {
+    padding-bottom: 25px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h2, h3, h4 {
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(15,173,166);
+}
+
+.analysis {
+    line-height: 2;
+}
+
+#side-image-1, #side-image-2, #side-image-3, #side-image-4 {
+    width: 48%;
+    height: auto;
+}
+
+.active-viz {
+    border: 2px solid rgb(15,173,166);
+}
+
+.background-footer {
+    background-color: rgb(15,173,166);
+    height: 10px;
+    width: 100%;
+}
+
+.copyright {
+    background-color: rgb(102,102,102);
+    height: 60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+/* colors: Latitude button/navbar/header text: teal (15,173,166),  navbar: white (255,255,255), navbar text: gray (119,119,119),
+background: light gray (237, 238, 237), col background: white (255,255,255), col text: bluegray (110, 127, 151), footer: gray (102,102,102)*/
