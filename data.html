@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- navbar -->
     <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
         <a href="index.html" class="navbar-brand" id="navbar-brand-color">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- navbar dropdown and nav items -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
@@ -38,8 +40,10 @@
             </ul>
         </div>
     </nav>
+    <!-- main page elements -->
     <div class="container-fluid">
         <div class="row">
+            <!-- main body -->
             <div class="main col-md-12 mr-auto">
                 <h2>Data</h2>
                 <hr>
@@ -48,7 +52,8 @@
                         The following table includes all of the data used for plotting during this project.
                     </p>
                 </div>
-                <table class="table table-striped table-hover">
+                <!-- data table -->
+                <table class="table table-striped table-hover table-responsive-xl">
                         <thead><tr><th title="Field #1">City_ID</th>
                         <th title="Field #2">City</th>
                         <th title="Field #3">Cloudiness</th>
@@ -6628,6 +6633,7 @@
             </div>
         </div>
     </div>
+    <!-- footer -->
     <footer class="background-footer sticky-bottom"></footer>
     <footer class="copyright sticky-bottom">&#169; Copyright Coding Bootcamp 2017</footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
